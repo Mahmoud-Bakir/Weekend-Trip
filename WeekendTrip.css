@@ -2,3 +2,15 @@ body,html{
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color:rgb(171, 214, 106)
+}
+
+.registeration{
+    display: flex;
+    margin-left: 31%;
+    margin-top: 5%;
+    background-color: whitesmoke;
+    width:35%;
+    height: 600px;
+}
