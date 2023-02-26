@@ -30,7 +30,7 @@ h1{
     text-align: center;
     font-size: 200%;
 }
-input{
+.Inside{
     margin-top: 2%;
     border-color: rgb(236, 116, 51);
     border-width:5px;
@@ -81,6 +81,6 @@ select{
   font-family: 'Courier New', monospace;
   font-weight: bolder;
 }
-#email{
+.sub{
 
 }
