@@ -9,8 +9,43 @@ body{
 .registeration{
     display: flex;
     margin-left: 31%;
-    margin-top: 5%;
+    margin-top: 3%;
     background-color: whitesmoke;
     width:35%;
     height: 600px;
+    flex-direction: column;
+}
+h1{
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 220%;
+}
+.title{ 
+    color: rgb(171, 214, 106);
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 200%;
+}
+input{
+    margin-top: 2%;
+    border-color: rgb(109, 13, 212);
+    margin-left: 9%;
+    margin-bottom:5%;
+    border-radius: 0px 50px;
+    font-size:100%;
+    color: rgb(109, 13, 212);
+
+}
+::placeholder{
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    color:rgb(109, 13, 212);
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
