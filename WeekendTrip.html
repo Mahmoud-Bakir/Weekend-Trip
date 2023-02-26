@@ -14,18 +14,18 @@
         <h2 class="title">Register to enter the journey</h2>
         <form action="">
             <div class="row">
-                <input type="text"id="fname" placeholder="First name:Indiana" size="20" class="Inside">
-                <input type="text"id="lname" placeholder="Last name:Jones" size="20"class="Inside">
+                <input type="text"id="fname" placeholder="First name:Indiana" size="20" class="Inside" required>
+                <input type="text"id="lname" placeholder="Last name:Jones" size="20"class="Inside" required>
             </div>
             <div class="row">
-                <input type="text"id="age" placeholder="age" size="20"class="Inside">
-                <input type="text"id="nickname" placeholder="nickname:Godzilla" size="20"class="Inside">
+                <input type="text"id="age" placeholder="age" size="20"class="Inside" required pattern="[1-9]{2}" title="You should be older than 10 and younger than 99">
+                <input type="text"id="nickname" placeholder="nickname:Godzilla" size="20"class="Inside"required>
             </div>
-            <input type="email" id="email" placeholder="Email-address" size="45"class="Inside">
-            <input type="email" id="password" placeholder="password" size="45"class="Inside">
+            <input type="email" id="email" placeholder="Email-address" size="45"class="Inside"  pattern="[a-z0-9._%+]+@[a-z]+\.[a-z]{2,3}$"required title="Email format: @, no dashes, a dot somewhere after the @ example: warrior@gmail.com  ">
+            <input type="password" id="password" placeholder="password" size="45"class="Inside" pattern="(@-=)+[A-za-z]"title="Your password should contain 8 characters minimum, one special character minimum, and at least one upper case letter example:Warrior22">
             <div class="row">
                 <label for="" class="lab"> Difficulty</label>
-                <select name="" class="select" >
+                <select name="" class="select" required >
                     <option value="">Challenging</option>
                     <option value="">Moderate</option>
                     <option value="">Easy</option>
