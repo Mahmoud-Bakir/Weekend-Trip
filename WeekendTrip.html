@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="WeekendTrip.js"></script>
     <link rel="stylesheet" href="WeekendTrip.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekend Trip</title>
 </head>
-<body>
+<body> 
+    
     <h1>Welcome Adventurer 🫡</h1>
     <div class="registeration">
         <h2 class="title">Register to enter the journey</h2>
-        <form action="">
+        <form action="" id="form">
             <div class="row">
                 <input type="text"id="fname" placeholder="First name:Indiana" size="20" class="Inside" required>
                 <input type="text"id="lname" placeholder="Last name:Jones" size="20"class="Inside" required>
@@ -22,20 +22,12 @@
                 <input type="text"id="nickname" placeholder="nickname:Godzilla" size="20"class="Inside"required>
             </div>
             <input type="email" id="email" placeholder="Email-address" size="45"class="Inside"  pattern="[a-z0-9._%+]+@[a-z]+\.[a-z]{2,3}$"required title="Email format: @, no dashes, a dot somewhere after the @ example: warrior@gmail.com  ">
-            <input type="password" id="password" placeholder="password" size="45"class="Inside" pattern="(@-=)+[A-za-z]"title="Your password should contain 8 characters minimum, one special character minimum, and at least one upper case letter example:Warrior22">
-            <div class="row">
-                <label for="" class="lab"> Difficulty</label>
-                <select name="" class="select" required >
-                    <option value="">Challenging</option>
-                    <option value="">Moderate</option>
-                    <option value="">Easy</option>
-                </select>
-            </div>
-            <input type="submit" value="submit" class="sub" />
-            <p></p>
-        
+            <input type="password" id="password" placeholder="password" size="45"class="Inside" title="Your password should contain 8 characters minimum, one special character minimum, and at least one upper case letter example:Warrior22">
+            
         </form>
+        <button class="sub" id="submit"> Submit</button>
 
     </div>
+    <script src="WeekendTrip.js"></script>
 </body>
 </html>
