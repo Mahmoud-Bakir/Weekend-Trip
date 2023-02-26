@@ -16,6 +16,16 @@ body{
     flex-direction: column;
     border-radius:50px;
 }
+a{
+    color: #000000;
+    font-family: 'Courier New', monospace;
+    font-weight: 300px;
+    text-align: center;
+    font-size: 300%;
+}
+a:hover{color: #ffffff;
+
+}
 h1{
     color: #ffffff;
     font-family: 'Courier New', monospace;
@@ -62,19 +72,7 @@ h1{
     margin-top: 10%;
 
 }
-.lab{
-      margin-top: 2%;
-    border-color: rgb(236, 116, 51);
-    border-width:5px;
-    margin-left: 25%;
-    margin-bottom:5%;
-    border-radius: 0px 50px;
-    font-size:125%;
-    color: rgb(236, 116, 51);
-    text-align: center;
-    font-family: 'Courier New', monospace;
-    font-weight: bolder;
-}
+
 select{
   margin-top: 2%;
   border-color: rgb(236, 116, 51);

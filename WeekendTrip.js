@@ -1,13 +1,15 @@
-var sub = document.getElementById("submit")
+    var welcome = document.getElementsByTagName("h1")[0]
+    console.log(welcome)
+    var sub = document.getElementById("submit")
     console.log(sub)
     sub.addEventListener("click",add)
     var credentials = `{"first":"","last":"","age":0,"nickname":"","email":"","password":""
-
     }
     `;
-    var user = JSON.parse(user);
-    console.log(user)
+    const start =false
 
+    var user = JSON.parse(credentials);
+    console.log(user)
     function add(){
         let fname = document.getElementById("fname").value;
         console.log(fname)
@@ -26,7 +28,8 @@ var sub = document.getElementById("submit")
         user.email=email
         let password = document.getElementById("password").value;
         console.log(password)
-        test.password=password
-        console.log(test)
+        user.password=password
+        welcome.innerHTML="Are you Ready "+user.nickname+"? Your first challenge is to find the link in this page to continue, GOOD Luck!"
+       
     }
 

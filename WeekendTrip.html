@@ -12,7 +12,7 @@
     <h1>Welcome Adventurer 🫡</h1>
     <div class="registeration">
         <h2 class="title">Register to enter the journey</h2>
-        <form action="" id="form">
+        <form action="" id="form" onsubmit="return false;">
             <div class="row">
                 <input type="text"id="fname" placeholder="First name:Indiana" size="20" class="Inside" required>
                 <input type="text"id="lname" placeholder="Last name:Jones" size="20"class="Inside" required>
@@ -23,11 +23,11 @@
             </div>
             <input type="email" id="email" placeholder="Email-address" size="45"class="Inside"  pattern="[a-z0-9._%+]+@[a-z]+\.[a-z]{2,3}$"required title="Email format: @, no dashes, a dot somewhere after the @ example: warrior@gmail.com  ">
             <input type="password" id="password" placeholder="password" size="45"class="Inside" title="Your password should contain 8 characters minimum, one special character minimum, and at least one upper case letter example:Warrior22">
-            
+            <input type="submit" value="submit" id="submit" class="sub">
         </form>
-        <button class="sub" id="submit"> Submit</button>
-
+        
     </div>
-    <script src="WeekendTrip.js"></script>
+    <a href="C:/Users/Mahmoud%20Bakir/Desktop/SEF/Weekend-Trip/Phase1.html" id="start"> You Found Me </a>
+    <script src="WeekendTrip.js" ></script>
 </body>
 </html>
